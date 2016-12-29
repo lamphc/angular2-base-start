@@ -1,0 +1,14 @@
+<section class="todoapp">
+    <header class="header">
+        <input class="new-todo" placeholder="请输入新事项并回车添加..." autofocus="" [(ngModel)]="newTodo.title" (keyup.enter)="addTodo()">
+    </header>
+    <section class="main" *ngIf="todos.length > 0">
+        <ul class="todo-list">
+            <todo-item *ngFor="let todo of todos" [todo]="todo">
+            </todo-item>
+        </ul>
+    </section>
+    <footer class="footer" *ngIf="todos.length > 0">
+        <span class="todo-count"><strong>{{todos.length}}</strong> 个事项，完成：{{completeTotal}}</span>
+    </footer>
+</section>

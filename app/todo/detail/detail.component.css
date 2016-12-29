@@ -1,0 +1,24 @@
+.detail-title {
+    font-weight:bold;
+    line-height:50px;
+    border-bottom:1px solid #7EBBF2;
+    text-indent: 1em;
+}
+.detail-title a {
+    font-size:14px;
+    font-weight: normal;
+    padding-right:1em;
+    cursor: pointer;
+}
+.form-group {
+    line-height:40px;
+    border-bottom:1px solid #eee;
+}
+.form-group label {
+    display: inline-block;
+    width: 100px;
+    text-indent:1em;
+}
+.form-group p {
+    display: inline-block;
+}
