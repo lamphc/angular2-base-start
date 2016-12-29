@@ -10,7 +10,7 @@ The project is supposed to be used as a base project to learn angular2. Becasue 
 Clone the repository, install the dependency and run:
 ```
 git clone https://github.com/lamphc/angular2-base-start.git
-cd angular2-basic
+cd angular2-base-start
 npm install
 npm start
 ```
