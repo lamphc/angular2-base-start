@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
     styleUrls: ['app/app.component.css']
 })
 
-export class AppComponent {date: Date = new Date()
+export class AppComponent {
+    date: Date = new Date()
+    appName: string = 'MIXIN'
 }

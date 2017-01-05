@@ -107,7 +107,7 @@ header {
     width:80%
 }
 
-.nav li a:hover {
+.nav li a:hover,.nav li a.active {
     background: #1E88E5;
     transition: background ease .4s;
 }
