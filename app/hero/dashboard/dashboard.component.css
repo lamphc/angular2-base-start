@@ -23,6 +23,9 @@ h4 {
 .grid {
     margin: 0;
 }
+
+.mt20 {margin-top:20px}
+
 .col-1-4 {
     width: 25%;
 }
@@ -42,6 +45,7 @@ h4 {
 }
 .grid-pad {
     padding: 10px 0;
+    overflow:hidden;
 }
 .grid-pad > [class*='col-']:last-of-type {
     padding-right: 20px;
